@@ -1,0 +1,113 @@
+.drivers_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drivers_heading {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 1.2rem;
+  color: rgb(24, 24, 24);
+}
+
+.heading_icon {
+  font-size: 3rem;
+}
+
+.add_driver {
+  background-color: #fca311 !important;
+  border: 2px solid black !important;
+  padding: 0.4rem 1rem !important;
+  color: black !important;
+  border-radius: 10px;
+}
+
+.add_driver:hover {
+    cursor: pointer;
+    color: rgba(218, 197, 159, 0.788);
+    border-bottom: 2px solid rgba(218, 197, 159, 0.788);
+  }
+
+.drivers_bottom{
+    margin-top: 4rem;
+    height: 70vh;
+}
+
+.driver_det{
+  background-color: #14213de5;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: white;
+  z-index: 11;
+}
+
+.fg{
+  display: flex;
+  flex-direction: column;
+}
+
+.fg input{
+  padding: 5px;
+  width: 15rem;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.addForm{
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.form_container{
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.submit_driver{
+  background-color: #fca311 !important;
+  border: 2px solid black !important;
+  padding: 0.4rem 1rem !important;
+  color: black !important;
+  border-radius: 10px;
+}
+
+.submit_driver:hover{
+  cursor: pointer;
+  background-color: #bd790c !important;
+  color: white !important;
+}
+
+.driverFG{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.driverFG input{
+  padding: 5px;
+  width: 15rem;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+  
+.add_driver_btn{
+  padding:5px;
+  width: 5rem;
+}
+
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.603);
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
