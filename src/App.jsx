@@ -1,6 +1,5 @@
 import './App.css'
 import {Routes, Route} from 'react-router-dom'
-import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
 import ShoppingTrips from './components/ShoppingTrips'
 import Drivers from './components/Drivers'
@@ -13,8 +12,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<Login/>}/>
-        <Route path='dashboard' element={<Dashboard/>}>
+        <Route path='/' element={<Dashboard/>}>
           <Route path='' element={<Drivers/>}/>
           <Route path='drivers' element={<Drivers/>}/>
           <Route path='customers' element={<Customers/>}/>
